@@ -1,9 +1,9 @@
 title: OpenShaiya
-description: A starter template for a Jeykll site using the Just the Docs theme!
+description: Open source Shaiya development
 theme: just-the-docs
 color_scheme: dark
 
-url: https://openshaiya.github.io/docs
+url: https://openshaiya.org
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
