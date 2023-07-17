@@ -15,5 +15,5 @@ This is sent when a player tries to log-in with a set of credentials.
 
 | Data type            | Name            | Description                                                                           |
 |:---------------------|:----------------|:--------------------------------------------------------------------------------------|
-| byte[32]             | username        | The name of the user.                                                                 |
-| byte[19]             | password        | The user's password.                                                                  |
+| u8[32]               | username        | The name of the user.                                                                 |
+| u8[19]               | password        | The user's password.                                                                  |

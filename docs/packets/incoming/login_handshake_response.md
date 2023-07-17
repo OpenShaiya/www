@@ -15,8 +15,8 @@ After receiving the [LoginHandshakeRequest]({{ site.baseurl }}{% link docs/packe
 
 | Data type            | Name            | Description                                                                           |
 |:---------------------|:----------------|:--------------------------------------------------------------------------------------|
-| byte                 | payloadLen      | The length of the proceeding payload.                                                 |
-| byte[payloadLen]     | payload         | The encrypted payload.                                                                |
+| u8                   | payloadLen      | The length of the proceeding payload.                                                 |
+| i8[payloadLen]       | payload         | The encrypted payload.                                                                |
 
 
 ## Usage

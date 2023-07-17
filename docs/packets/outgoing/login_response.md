@@ -15,7 +15,7 @@ This is sent after the server has received a [LoginRequest]({{ site.baseurl }}{%
 
 | Data type            | Name            | Description                                                                           |
 |:---------------------|:----------------|:--------------------------------------------------------------------------------------|
-| byte                 | status          | The status of the login process.                                                      |
+| u8                   | status          | The status of the login process.                                                      |
 | u32                  | user_uid        | The id of the user account.                                                           |
 | u8                   | privilege       | The privilege or "GM status" of the user.                                             |
 | i128                 | identity        | The identity key of the session. This can be anything, but should be random and unique - the client will use this to identify itself when connecting to a game server. 
