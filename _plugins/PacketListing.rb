@@ -7,7 +7,7 @@ module Jekyll
     end
 
     def render(context)
-      "<a href='/docs/packets/incoming/#{@text}.html'>#{@text.split('_').map(&:capitalize).join('')}</a>"
+      ShaiyaUtil.render_link(:incoming, @text)
     end
   end
   class OutgoingPacket < Liquid::Tag
@@ -18,9 +18,16 @@ module Jekyll
     end
 
     def render(context)
-      "<a href='/docs/packets/outgoing/#{@text}.html'>#{@text.split('_').map(&:capitalize).join('')}</a>"
+      ShaiyaUtil.render_link(:outgoing, @text)
     end
   end
+end
+
+module ShaiyaUtil
+  def render_link(type, name)
+    "<a href='/docs/packets/#{type}/#{name}.html'>#{name.split('_').map(&:capitalize).join('')}</a>"
+  end
+  module_function :render_link
 end
 
 Liquid::Template.register_tag('pinc', Jekyll::IncomingPacket)
