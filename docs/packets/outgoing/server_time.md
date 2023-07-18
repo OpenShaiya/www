@@ -3,7 +3,7 @@ layout: default
 title: ServerTime
 parent: Outgoing Packets
 grand_parent: Packets
-nav_order: 18
+nav_order: 0x0404
 ---
 
 # ServerTime (0x0404)

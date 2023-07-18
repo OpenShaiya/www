@@ -3,7 +3,7 @@ layout: default
 title: GuildList
 parent: Outgoing Packets
 grand_parent: Packets
-nav_order: 24
+nav_order: 0x0D2F
 ---
 
 # GuildList (0x0D2F)

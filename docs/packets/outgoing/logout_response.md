@@ -3,7 +3,7 @@ layout: default
 title: LogoutResponse
 parent: Outgoing Packets
 grand_parent: Packets
-nav_order: 12
+nav_order: 0x0107
 ---
 
 

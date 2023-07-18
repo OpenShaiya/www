@@ -3,7 +3,7 @@ layout: default
 title: CharacterDetails
 parent: Outgoing Packets
 grand_parent: Packets
-nav_order: 10
+nav_order: 0x0105
 ---
 
 # CharacterDetails (0x0105)

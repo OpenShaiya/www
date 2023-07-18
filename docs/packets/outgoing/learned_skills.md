@@ -3,7 +3,7 @@ layout: default
 title: LearnedSkills
 parent: Outgoing Packets
 grand_parent: Packets
-nav_order: 13
+nav_order: 0x0108
 ---
 
 # LearnedSkills (0x0108)

@@ -3,7 +3,7 @@ layout: default
 title: ServerSelectResponse
 parent: Outgoing Packets
 grand_parent: Packets
-nav_order: 4
+nav_order: 0xA202
 ---
 
 # ServerSelectResponse (0xA202)

@@ -3,7 +3,7 @@ layout: default
 title: LoginHandshakeResponse
 parent: Incoming Packets
 grand_parent: Packets
-nav_order: 1
+nav_order: 0xA101
 ---
 
 

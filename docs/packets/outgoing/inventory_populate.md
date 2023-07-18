@@ -3,7 +3,7 @@ layout: default
 title: InventoryPopulate
 parent: Outgoing Packets
 grand_parent: Packets
-nav_order: 11
+nav_order: 0x0106
 ---
 
 # InventoryPopulate (0x0106)

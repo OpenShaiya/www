@@ -3,7 +3,7 @@ layout: default
 title: CharacterDeleteResponse
 parent: Outgoing Packets
 grand_parent: Packets
-nav_order: 8
+nav_order: 0x0103
 ---
 
 # CharacterDeleteResponse (0x0103)

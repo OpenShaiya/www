@@ -3,7 +3,7 @@ layout: default
 title: ActiveBuffs
 parent: Outgoing Packets
 grand_parent: Packets
-nav_order: 15
+nav_order: 0x010A
 ---
 
 # ActiveBuffs (0x010A)

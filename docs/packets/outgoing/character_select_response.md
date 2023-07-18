@@ -3,7 +3,7 @@ layout: default
 title: CharacterSelectResponse
 parent: Outgoing Packets
 grand_parent: Packets
-nav_order: 9
+nav_order: 0x0104
 ---
 
 # CharacterSelectResponse (0x0104)

@@ -3,7 +3,7 @@ layout: default
 title: GameHandshakeRequest
 parent: Incoming Packets
 grand_parent: Packets
-nav_order: 4
+nav_order: 0xA301
 ---
 
 # GameHandshakeRequest (0xA301)

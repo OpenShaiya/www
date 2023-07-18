@@ -3,7 +3,7 @@ layout: default
 title: CharacterList
 parent: Outgoing Packets
 grand_parent: Packets
-nav_order: 6
+nav_order: 0x0101
 ---
 
 # CharacterList (0x0101)

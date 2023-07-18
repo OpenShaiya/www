@@ -3,7 +3,7 @@ layout: default
 title: CharacterDeleteRequest
 parent: Incoming Packets
 grand_parent: Packets
-nav_order: 6
+nav_order: 0x0103
 ---
 
 # CharacterDeleteRequest (0x0103)

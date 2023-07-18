@@ -3,7 +3,7 @@ layout: default
 title: LoginRequest
 parent: Incoming Packets
 grand_parent: Packets
-nav_order: 2
+nav_order: 0xA102
 ---
 
 

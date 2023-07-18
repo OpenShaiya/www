@@ -3,7 +3,7 @@ layout: default
 title: UpdateBillingPoints
 parent: Outgoing Packets
 grand_parent: Packets
-nav_order: 25
+nav_order: 0x2601
 ---
 
 # UpdateBillingPoints (0x2601)

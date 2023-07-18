@@ -3,7 +3,7 @@ layout: default
 title: CharacterCreateRequest
 parent: Incoming Packets
 grand_parent: Packets
-nav_order: 5
+nav_order: 0x0102
 ---
 
 # CharacterCreateRequest (0x0102)

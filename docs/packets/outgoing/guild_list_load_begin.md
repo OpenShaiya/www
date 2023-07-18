@@ -3,7 +3,7 @@ layout: default
 title: GuildListLoadBegin
 parent: Outgoing Packets
 grand_parent: Packets
-nav_order: 22
+nav_order: 0x0D0D
 ---
 
 # GuildListLoadBegin (0x0D0D)

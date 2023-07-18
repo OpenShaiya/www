@@ -3,7 +3,7 @@ layout: default
 title: CharacterCreateResponse
 parent: Outgoing Packets
 grand_parent: Packets
-nav_order: 7
+nav_order: 0x0102
 ---
 
 # CharacterCreateResponse (0x0102)

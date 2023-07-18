@@ -3,7 +3,7 @@ layout: default
 title: CharacterSelectRequest
 parent: Incoming Packets
 grand_parent: Packets
-nav_order: 7
+nav_order: 0x0104
 ---
 
 # CharacterSelectRequest (0x0104)
