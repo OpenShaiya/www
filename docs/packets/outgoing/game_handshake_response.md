@@ -33,7 +33,6 @@ for (i = 1; i < 128; i++)
     hash = SHA256(expandedKey[len - 16..len])
     expandedKey.append(hash)
 
-// expandedKey is now a 2048 byte xor table. packets are then encrypted and decrypted based on their index.
 for (i = 0; i < packet.length; i++)
     packet[i] ^= expandedKey[i]
 ```
