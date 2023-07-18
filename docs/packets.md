@@ -47,6 +47,7 @@ Below is a list of packets that are currently documented on this site.
 | 0x051F    | n/a                                           | {% pout update_all_max_resources %}                                      |
 | 0x0521    | n/a                                           | {% pout update_current_resources %}                                      |
 | 0x0522    | n/a                                           | {% pout update_kills %}                                                  |
+| 0x0806    | {% pinc item_reroll_request %}                | {% pout item_reroll_response %}                                          |
 | 0x0D0D    | n/a                                           | {% pout guild_list_load_begin %}                                         |
 | 0x0D0E    | n/a                                           | {% pout guild_list_load_end %}                                           |
 | 0x0D2F    | n/a                                           | {% pout guild_list %}                                                    |
