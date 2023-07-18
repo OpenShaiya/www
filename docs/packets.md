@@ -35,6 +35,7 @@ Below is a list of packets that are currently documented on this site.
 | 0x0104    | {% pinc character_select_request %}           | {% pout character_select_response %}                                     |
 | 0x0105    | n/a                                           | {% pout character_details %}                                             |
 | 0x0106    | n/a                                           | {% pout inventory_populate %}                                            |
+| 0x0107    | {% pinc logout_request %}                     | {% pout logout_response %}                                               |
 | 0x0109    | {% pinc account_faction_select %}             | {% pout account_faction %}                                               |
 | 0x010B    | n/a                                           | {% pout action_bar_update %}                                             |
 | 0x0205    | n/a                                           | {% pout item_acquired %}                                                 |
