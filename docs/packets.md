@@ -32,6 +32,8 @@ Below is a list of packets that are currently documented on this site.
 | 0x0101    | n/a                                           | {% pout character_list %}                                                |
 | 0x0102    | {% pinc character_create_request %}           | {% pout character_create_response %}                                     |
 | 0x0109    | {% pinc account_faction_select %}             | {% pout account_faction %}                                               |
+| 0x0205    | n/a                                           | {% pout item_acquired %}                                                 |
+| 0x050B    | n/a                                           | {% pout update_max_resources %}                                          |
 | 0xB106    | {% pinc xor_encryption_signal %}              | n/a                                                                      |
 
 ## Packet Grouping
