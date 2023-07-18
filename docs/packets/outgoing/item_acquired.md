@@ -3,12 +3,12 @@ layout: default
 title: ItemAcquired
 parent: Outgoing Packets
 grand_parent: Packets
-nav_order: 12
+nav_order: 14
 ---
 
 # ItemAcquired (0x0205)
 
-This packet is used to inform a player that an item has been added to their inventory.
+This packet is used to inform a player that an item has been added to their inventory. This also logs the "acquired {name}" text to the chat box, and plays a sound effect.
 
 ## Payload
 
@@ -19,7 +19,7 @@ This packet is used to inform a player that an item has been added to their inve
 | u8                   | type            | The item type.                                                                             |
 | u8                   | type_id         | The item type id.                                                                          |
 | u8                   | quantity        | The quantity of items in this stack.                                                       |
-| u16                  | endurance       | The current endurance of the item.                                                         |
+| u16                  | durability      | The current durability of the item.                                                        |
 | u8[6]                | lapis           | The lapis gem type ids. These all have a "type" of 30.                                     |
 | u8[21]               | craftname       | The craftname of an item.                                                                  |
 
