@@ -41,6 +41,7 @@ Below is a list of packets that are currently documented on this site.
 | 0x010A    | n/a                                           | {% pout active_buffs %}                                                  |
 | 0x010B    | n/a                                           | {% pout action_bar_update %}                                             |
 | 0x0205    | n/a                                           | {% pout item_acquired %}                                                 |
+| 0x0404    | n/a                                           | {% pout server_time %}                                                   |
 | 0x050B    | n/a                                           | {% pout update_max_resources %}                                          |
 | 0x0521    | n/a                                           | {% pout update_current_resources %}                                      |
 | 0xB106    | {% pinc xor_encryption_signal %}              | n/a                                                                      |

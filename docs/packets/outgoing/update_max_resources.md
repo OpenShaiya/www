@@ -3,7 +3,7 @@ layout: default
 title: UpdateMaxResources
 parent: Outgoing Packets
 grand_parent: Packets
-nav_order: 18
+nav_order: 19
 ---
 
 # UpdateMaxResources (0x050B)
