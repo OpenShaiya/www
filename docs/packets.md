@@ -40,6 +40,7 @@ Below is a list of packets that are currently documented on this site.
 | 0x0109    | {% pinc account_faction_select %}             | {% pout account_faction %}                                               |
 | 0x010A    | n/a                                           | {% pout active_buffs %}                                                  |
 | 0x010B    | n/a                                           | {% pout action_bar_update %}                                             |
+| 0x0119    | {% pinc character_name_available_request %}   | {% pout character_name_available_response %}                             |
 | 0x0205    | n/a                                           | {% pout item_acquired %}                                                 |
 | 0x0404    | n/a                                           | {% pout server_time %}                                                   |
 | 0x050B    | n/a                                           | {% pout update_max_resources %}                                          |
