@@ -33,3 +33,12 @@ Below is a list of packets that are currently documented on this site.
 | 0x0102    | {% pinc character_create_request %}           | {% pout character_create_response %}                                     |
 | 0x0109    | {% pinc account_faction_select %}             | {% pout account_faction %}                                               |
 | 0xB106    | {% pinc xor_encryption_signal %}              | n/a                                                                      |
+
+## Packet Grouping
+
+As you might have noticed, packets are grouped based on their most significant byte. This allows for the server to logically separate packets based on their opcode alone. An example of this would be, if the client sends a character screen packet while in the game world, we can just ignore it, or disconnect the client.
+
+```
+packet_group = opcode & 0xFF00
+is_character_screen_packet = packet_group == 0x0100
+```
