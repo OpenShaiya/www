@@ -43,6 +43,7 @@ Below is a list of packets that are currently documented on this site.
 | 0x0205    | n/a                                           | {% pout item_acquired %}                                                 |
 | 0x0404    | n/a                                           | {% pout server_time %}                                                   |
 | 0x050B    | n/a                                           | {% pout update_max_resources %}                                          |
+| 0x051C    | n/a                                           | {% pout speed_update %}                                                  |
 | 0x051F    | n/a                                           | {% pout update_all_max_resources %}                                      |
 | 0x0521    | n/a                                           | {% pout update_current_resources %}                                      |
 | 0x0D0D    | n/a                                           | {% pout guild_list_load_begin %}                                         |
