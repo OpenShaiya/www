@@ -3,7 +3,7 @@ layout: default
 title: XorEncryptionSignal
 parent: Incoming Packets
 grand_parent: Packets
-nav_order: 7
+nav_order: 9
 ---
 
 # XorEncryptionSignal (0xB106)

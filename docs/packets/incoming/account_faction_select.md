@@ -3,7 +3,7 @@ layout: default
 title: AccountFactionSelect
 parent: Incoming Packets
 grand_parent: Packets
-nav_order: 6
+nav_order: 8
 ---
 
 # AccountFactionSelect (0x0109)

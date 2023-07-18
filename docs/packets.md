@@ -31,6 +31,9 @@ Below is a list of packets that are currently documented on this site.
 | 0xA301    | {% pinc game_handshake_request %}             | {% pout game_handshake_response %}                                       |
 | 0x0101    | n/a                                           | {% pout character_list %}                                                |
 | 0x0102    | {% pinc character_create_request %}           | {% pout character_create_response %}                                     |
+| 0x0103    | {% pinc character_delete_request %}           | {% pout character_delete_response %}                                     |
+| 0x0104    | {% pinc character_select_request %}           | {% pout character_select_response %}                                     |
+| 0x0105    | n/a                                           | {% pout character_details %}                                             |
 | 0x0109    | {% pinc account_faction_select %}             | {% pout account_faction %}                                               |
 | 0x0205    | n/a                                           | {% pout item_acquired %}                                                 |
 | 0x050B    | n/a                                           | {% pout update_max_resources %}                                          |
