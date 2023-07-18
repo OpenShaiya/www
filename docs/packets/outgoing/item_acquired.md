@@ -3,7 +3,7 @@ layout: default
 title: ItemAcquired
 parent: Outgoing Packets
 grand_parent: Packets
-nav_order: 15
+nav_order: 16
 ---
 
 # ItemAcquired (0x0205)

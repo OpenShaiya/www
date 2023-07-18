@@ -3,7 +3,7 @@ layout: default
 title: ActionBarUpdate
 parent: Outgoing Packets
 grand_parent: Packets
-nav_order: 14
+nav_order: 15
 ---
 
 # ActionBarUpdate (0x010B)

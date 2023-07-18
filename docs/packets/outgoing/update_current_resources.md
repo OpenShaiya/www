@@ -3,7 +3,7 @@ layout: default
 title: UpdateCurrentResources
 parent: Outgoing Packets
 grand_parent: Packets
-nav_order: 17
+nav_order: 18
 ---
 
 # UpdateCurrentResources (0x0521)

@@ -3,7 +3,7 @@ layout: default
 title: AccountFaction
 parent: Outgoing Packets
 grand_parent: Packets
-nav_order: 13
+nav_order: 14
 ---
 
 # AccountFaction (0x0109)
