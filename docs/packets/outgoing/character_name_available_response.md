@@ -8,7 +8,7 @@ nav_order: 0x0103
 
 # CharacterNameAvailableResponse (0x0119)
 
-This packet is sent in response to a {% character_name_available_request %}.
+This packet is sent in response to a {% pinc character_name_available_request %}.
 
 ## Payload
 
