@@ -17,3 +17,14 @@ A packet is always prefixed with 2 shorts - the length, and the opcode. These sh
 | u16                  | length               | The length of the entire message.                  |
 | u16                  | opcode               | The identifier of the packet.                      |
 | byte[length - 4]     | payload              | The data of the packet                             |
+
+## Documented Packets
+
+Below is a list of packets that are currently documented on this site.
+
+| Opcode    | Incoming                                      | Outgoing                                                                 |
+------------|:----------------------------------------------|:-------------------------------------------------------------------------|
+| 0xA101    | {% pinc login_handshake_response %}           | {% pout login_handshake_request %}                                       |
+| 0xA102    | {% pinc login_request %}                      | {% pout login_response %}                                                |
+| 0xA201    | n/a                                           | {% pout server_list %}                                                   |
+| 0xA202    | {% pinc server_select_request %}              | {% pout server_select_response %}                                        |
