@@ -44,6 +44,7 @@ Below is a list of packets that are currently documented on this site.
 | 0x0404    | n/a                                           | {% pout server_time %}                                                   |
 | 0x050B    | n/a                                           | {% pout update_max_resources %}                                          |
 | 0x0521    | n/a                                           | {% pout update_current_resources %}                                      |
+| 0x2601    | n/a                                           | {% pout update_billing_points %}                                         |
 | 0xB106    | {% pinc xor_encryption_signal %}              | n/a                                                                      |
 
 ## Packet Grouping
