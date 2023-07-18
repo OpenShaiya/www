@@ -28,3 +28,6 @@ Below is a list of packets that are currently documented on this site.
 | 0xA102    | {% pinc login_request %}                      | {% pout login_response %}                                                |
 | 0xA201    | n/a                                           | {% pout server_list %}                                                   |
 | 0xA202    | {% pinc server_select_request %}              | {% pout server_select_response %}                                        |
+| 0xA301    | {% pinc game_handshake_request %}             | {% pout game_handshake_response %}                                       |
+| 0x0109    | {% pinc account_faction_select %}             | {% pout account_faction %}                                               |
+| 0xB106    | {% pinc xor_encryption_signal %}              | n/a                                                                      |
