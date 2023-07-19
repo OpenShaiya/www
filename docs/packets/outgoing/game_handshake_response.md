@@ -8,7 +8,7 @@ nav_order: 0xA301
 
 # GameHandshakeResponse (0xA301)
 
-This packet is sent after the client has successfully handshaked with the game server - it informs the player of their current faction, as well as maximum available game mode.
+This packet is sent in response to a {% pinc game_handshake_request %}, and is responsible for informing the client of the encryption mode to be used.
 
 ## Payload
 
